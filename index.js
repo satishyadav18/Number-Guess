@@ -21,7 +21,7 @@ function handleGuess() {
         } else if (guess < ans) {
             alert("TOO LOW! PLEASE TRY AGAIN");
         } else {
-            alert(`CORRECT! The answer was ${ans}. It took you ${attempts} attempts`);
+            alert(`Congratulations!! You guessed the correct number. The answer was ${ans}. It took you ${attempts} attempts`);
             document.getElementById("customPromptOverlay").style.display = "none"; // Hide the prompt when the answer is correct
         }
     }
